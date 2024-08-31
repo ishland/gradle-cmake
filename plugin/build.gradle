@@ -1,13 +1,6 @@
 plugins {
     id 'java-gradle-plugin'
     id 'maven-publish'
-    id 'com.gradle.plugin-publish' version '0.14.0'
-}
-
-pluginBundle {
-    website = 'https://github.com/tomtzook/gradle-cmake'
-    vcsUrl = 'https://github.com/tomtzook/gradle-cmake'
-    tags = ['native', 'cmake']
 }
 
 sourceCompatibility = JavaVersion.VERSION_1_8
@@ -17,7 +10,6 @@ group = 'io.github.tomtzook'
 version = '1.2.2'
 
 repositories {
-    jcenter()
     mavenCentral()
 }
 
